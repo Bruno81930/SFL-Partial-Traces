@@ -1,0 +1,1208 @@
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running SampleJobTest
+Configuration directory: /var/folders/v7/y59676z563x2v1zr0pp_jcq40000gn/T/1696499073749-0/.openpnp
+12:44:33,765 INFO  org.openpnp.model.Configuration No packages.xml found in configuration directory, loading defaults.
+12:44:33,892 INFO  org.openpnp.model.Configuration No parts.xml found in configuration directory, loading defaults.
+12:44:33,905 INFO  org.openpnp.model.Configuration No machine.xml found in configuration directory, loading defaults.
+12:44:36,536 INFO  org.openpnp.model.Configuration Defaults were loaded. Saving to configuration directory.
+12:44:36,620 DEBUG org.openpnp.spi.base.AbstractJobProcessor stop()
+12:44:36,622 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobStateChanged(Stopped)
+12:44:36,622 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobLoaded()
+12:44:36,622 DEBUG org.openpnp.machine.reference.ReferenceMachine setEnabled(true)
+12:44:36,622 DEBUG org.openpnp.machine.reference.driver.NullDriver setEnabled(true)
+12:44:36,622 DEBUG org.openpnp.spi.base.AbstractJobProcessor start()
+12:44:36,623 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobStateChanged(Running)
+12:44:36,624 DEBUG org.openpnp.planner.SimpleJobPlanner Planned 32 solutions
+12:44:36,624 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,624 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,625 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,625 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,626 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,626 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,626 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,626 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,626 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,626 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,626 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,626 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,626 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,626 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,627 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,627 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,627 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,627 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,627 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,627 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,627 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,627 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,627 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,627 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,627 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,627 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,627 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,628 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,628 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,628 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,628 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,628 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,628 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,628 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,628 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,628 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,628 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,628 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,629 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,629 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,629 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,629 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,629 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,629 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,629 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,629 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,629 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,629 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,629 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,630 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,630 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,630 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,630 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,630 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,630 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,630 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,630 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,630 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,631 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,631 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,631 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,631 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,631 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,631 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,631 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,631 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,632 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,632 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,632 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,632 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,632 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,632 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,632 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,633 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,633 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,633 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,633 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,633 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,633 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,633 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,633 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,633 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,633 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,634 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,634 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,634 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,634 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,634 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,634 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,634 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,634 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,634 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,635 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,635 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,635 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,635 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,635 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,635 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,635 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,635 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,635 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,636 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,636 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,636 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,636 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,636 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,636 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,636 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,636 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,636 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,637 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,637 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,637 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,637 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,637 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,637 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,637 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,637 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,637 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,638 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,638 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,638 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,638 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,638 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,638 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,638 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,638 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,638 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,639 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,639 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,639 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,639 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,639 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,643 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,643 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,643 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,643 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,643 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,643 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,643 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,643 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,643 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,643 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,643 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,643 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,644 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,645 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,645 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,645 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,645 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,645 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,645 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,645 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,645 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,646 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,647 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,647 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,647 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,647 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,647 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,647 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,647 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,647 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,647 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,647 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,647 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,647 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,648 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,649 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,649 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,649 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,649 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,649 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,649 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,649 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,649 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,649 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,649 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,650 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,651 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,651 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,651 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,651 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,651 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,651 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,651 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,651 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,651 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,651 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,651 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,652 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,652 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,652 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,652 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,652 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,652 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,652 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,652 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,652 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,653 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,653 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,653 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,653 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,653 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,653 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,653 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,653 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,653 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,654 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,655 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,655 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,655 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,655 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,655 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,655 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,655 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,655 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,655 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,655 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,655 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,655 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,656 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,656 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,656 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,656 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,656 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,656 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,656 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,656 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,656 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,656 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,656 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,657 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,657 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,657 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,657 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,657 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,657 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,657 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,657 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,657 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,657 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,657 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,657 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,658 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,658 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,658 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,658 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,658 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,658 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,658 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,659 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,659 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,659 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,659 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,660 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,660 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,660 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,660 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,660 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,660 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,661 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,661 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,661 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,661 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,661 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,661 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,661 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,661 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,661 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,661 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,661 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,662 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,662 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,662 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,662 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,662 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,662 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,662 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,662 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,662 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,662 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,662 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,663 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,663 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,663 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,663 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,663 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,663 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,663 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,663 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,663 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,664 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,664 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,664 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,664 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,664 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,664 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,664 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,664 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,664 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,664 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,664 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,665 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,665 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,665 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,665 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,665 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,665 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,665 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,665 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,665 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,665 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,665 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,665 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,666 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,666 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,666 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,666 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,666 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,666 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,666 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,666 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,667 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,667 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,667 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,667 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,667 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,667 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,667 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,667 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,668 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,668 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,668 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,669 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,669 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,669 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,669 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,670 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,670 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,670 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,670 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,670 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,670 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,670 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,670 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,671 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,671 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,671 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,671 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,671 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,671 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,671 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,671 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,671 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,671 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,672 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,672 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,672 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,672 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,672 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,672 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,672 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,672 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,672 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,672 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,673 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,673 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,673 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,673 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,674 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,674 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,674 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,674 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,674 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,674 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,675 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,675 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,675 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,675 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,675 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,675 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,675 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,676 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,676 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,676 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,676 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,676 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,676 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,676 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,676 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,676 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,676 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,676 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,676 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,677 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,677 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,677 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,677 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,677 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,677 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,677 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,677 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,677 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,677 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,677 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,677 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,677 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,678 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,678 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,678 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,678 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,678 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,678 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,678 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,678 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,678 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,678 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,678 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,679 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,680 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,680 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,680 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,680 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,680 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,680 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,680 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,680 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,680 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,680 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,681 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,681 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,682 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,682 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,682 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,682 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,683 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,683 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,683 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,684 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,684 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,684 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,684 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,684 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,684 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,684 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,685 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,685 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,685 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:44:36,685 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,685 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,685 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,686 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:44:36,686 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,686 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,686 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:44:36,686 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,686 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:44:36,687 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move head H1 to Safe-Z.)
+12:44:36,687 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+12:44:36,688 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+12:44:36,690 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:44:36,691 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+12:44:36,691 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@29e0fb78, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:44:36,692 DEBUG org.openpnp.machine.reference.ReferenceCamera Wide.moveToSafeZ(1.0)
+12:44:36,692 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@3d1f7ce5, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:44:36,692 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+12:44:36,692 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:44:36,693 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+12:44:36,693 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:44:36,693 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Check fiducials.)
+12:44:36,696 DEBUG org.openpnp.vision.FiducialLocator Chose FID1 and FID2
+12:44:36,696 DEBUG org.openpnp.vision.FiducialLocator Locating FID1
+12:44:36,700 DEBUG org.openpnp.vision.FiducialLocator Looking for FID1 at (5.994319, 6.413460, 0.000000, 0.007895 mm)
+12:44:36,701 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+12:44:36,701 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+12:44:36,702 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:44:36,702 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+12:44:36,702 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@29e0fb78, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:44:36,702 DEBUG org.openpnp.machine.reference.ReferenceCamera Wide.moveToSafeZ(1.0)
+12:44:36,702 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@3d1f7ce5, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:44:36,702 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+12:44:36,703 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:44:36,703 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+12:44:36,703 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:44:36,703 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((5.994319, 6.413460, NaN, 0.007895 mm), 1.0)
+12:44:36,704 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@29e0fb78, (5.994319, 6.413460, NaN, 0.007895 mm), 1.0)
+12:44:36,704 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((5.994319, 6.413460, 0.000000, 0.007895 mm), 1.0)
+12:44:36,705 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@29e0fb78, (5.994319, 6.413460, 0.000000, 0.007895 mm), 1.0)
+12:44:36,973 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobEncounteredError(MachineMovementError, null)
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.347 sec <<< FAILURE!
+testSampleJob(SampleJobTest)  Time elapsed: 3.233 sec  <<< ERROR!
+java.lang.Exception: MachineMovementError null
+	at SampleJobTest$SampleJobTestProcessorListener.jobEncounteredError(SampleJobTest.java:120)
+	at org.openpnp.spi.base.AbstractJobProcessor.fireJobEncounteredError(AbstractJobProcessor.java:160)
+	at org.openpnp.machine.reference.ReferenceJobProcessor.run(ReferenceJobProcessor.java:126)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+Results :
+
+Tests in error: 
+  testSampleJob(SampleJobTest): MachineMovementError null
+
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project openpnp-gui: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/brunomachado/bugs/openpnp/1/src/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running SampleJobTest
+Configuration directory: /var/folders/v7/y59676z563x2v1zr0pp_jcq40000gn/T/1696499285338-0/.openpnp
+12:48:05,354 INFO  org.openpnp.model.Configuration No packages.xml found in configuration directory, loading defaults.
+12:48:05,503 INFO  org.openpnp.model.Configuration No parts.xml found in configuration directory, loading defaults.
+12:48:05,515 INFO  org.openpnp.model.Configuration No machine.xml found in configuration directory, loading defaults.
+12:48:09,171 INFO  org.openpnp.model.Configuration Defaults were loaded. Saving to configuration directory.
+12:48:09,353 DEBUG org.openpnp.spi.base.AbstractJobProcessor stop()
+12:48:09,356 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobStateChanged(Stopped)
+12:48:09,357 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobLoaded()
+12:48:09,357 DEBUG org.openpnp.machine.reference.ReferenceMachine setEnabled(true)
+12:48:09,358 DEBUG org.openpnp.machine.reference.driver.NullDriver setEnabled(true)
+12:48:09,358 DEBUG org.openpnp.spi.base.AbstractJobProcessor start()
+12:48:09,359 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobStateChanged(Running)
+12:48:09,360 DEBUG org.openpnp.planner.SimpleJobPlanner Planned 32 solutions
+12:48:09,361 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,361 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,362 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,362 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,362 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,363 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,363 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,363 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,363 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,363 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,363 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,363 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,363 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,364 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,364 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,364 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,364 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,364 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,364 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,364 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,364 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,365 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,365 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,365 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,365 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,365 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,365 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,365 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,365 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,366 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,366 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,366 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,366 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,366 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,367 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,367 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,367 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,367 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,367 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,367 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,367 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,369 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,370 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,370 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,370 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,370 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,370 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,370 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,370 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,370 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,370 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,370 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,371 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,371 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,371 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,371 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,371 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,371 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,371 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,372 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,372 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,372 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,372 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,372 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,372 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,372 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,372 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,373 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,373 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,373 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,373 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,373 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,373 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,373 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,374 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,374 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,374 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,374 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,374 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,374 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,375 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,375 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,376 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,376 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,376 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,376 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,376 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,376 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,376 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,376 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,377 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,377 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,377 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,378 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,378 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,378 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,378 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,378 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,378 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,378 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,378 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,379 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,379 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,379 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,379 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,388 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,388 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,388 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,389 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,389 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,389 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,393 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,394 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,394 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,395 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,395 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,396 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,397 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,397 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,397 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,397 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,397 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,397 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,397 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,397 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,398 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,398 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,398 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,398 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,398 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,398 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,398 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,398 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,398 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,398 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,398 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,399 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,399 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,399 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,399 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,399 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,399 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,400 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,400 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,400 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,400 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,400 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,400 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,400 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,400 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,401 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,401 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,401 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,401 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,401 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,401 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,401 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,401 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,401 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,401 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,401 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,401 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,402 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,402 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,402 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,402 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,402 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,402 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,402 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,402 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,402 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,402 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,403 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,403 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,403 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,403 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,403 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,403 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,403 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,403 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,403 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,404 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,404 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,404 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,404 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,404 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,404 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,404 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,404 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,404 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,404 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,404 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,405 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,405 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,405 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,405 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,405 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,405 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,405 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,405 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,405 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,405 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,405 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,406 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,406 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,406 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,406 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,406 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,406 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,406 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,406 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,407 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,407 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,407 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,407 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,407 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,407 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,407 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,407 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,407 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,407 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,408 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,408 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,408 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,408 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,408 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,408 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,408 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,409 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,409 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,409 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,409 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,409 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,409 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,409 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,409 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,409 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,409 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,410 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,411 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,411 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,411 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,411 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,411 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,411 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,411 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,412 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,412 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,412 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,412 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,412 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,412 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,412 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,412 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,412 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,412 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,412 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,413 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,413 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,413 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,413 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,413 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,413 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,413 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,415 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,415 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,416 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,416 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,416 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,416 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,416 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,416 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,416 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,416 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,416 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,417 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,417 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,417 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,417 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,417 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,417 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,417 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,417 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,417 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,417 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,418 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,418 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,418 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,418 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,418 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,418 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,418 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,418 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,418 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,418 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,419 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,419 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,419 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,419 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,419 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,419 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,419 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,419 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,420 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,420 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,420 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,420 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,420 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,420 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,420 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,420 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,420 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,420 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,420 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,421 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,421 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,421 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,421 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,421 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,421 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,421 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,421 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,421 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,422 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,422 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,422 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,422 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,422 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,422 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,422 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,423 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,423 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,423 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,423 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,423 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,423 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,423 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,423 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,423 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,423 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,423 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,424 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,424 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,424 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,424 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,424 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,424 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,424 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,424 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,424 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,424 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,424 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,425 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,425 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,425 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,425 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,425 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,425 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,425 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,425 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,425 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,426 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,426 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,426 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,426 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,426 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,426 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,426 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,429 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,429 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,429 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,435 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,435 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,435 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,435 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,436 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,436 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,436 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,436 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,436 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,437 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,437 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,437 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,438 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,438 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,438 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,438 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,438 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,438 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,438 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,439 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,439 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,439 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,439 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,439 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,439 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,439 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,440 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,440 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,440 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,440 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,440 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,440 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,440 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,440 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,440 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,440 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,440 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,441 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,442 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,442 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,442 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,442 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,442 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,442 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,442 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,442 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,442 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,442 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,442 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,442 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,443 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,446 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,446 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,446 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,446 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,446 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,446 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,446 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,446 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,446 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,446 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,447 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,447 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,447 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,447 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,447 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,447 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,447 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,447 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,447 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,447 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,447 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,447 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,448 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,448 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,448 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,448 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,448 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,448 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,448 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,448 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,448 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,448 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,448 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,449 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,449 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,449 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,449 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,449 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,449 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,449 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,449 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,449 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,450 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,450 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,450 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,450 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,450 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,450 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,450 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,450 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,451 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,451 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+12:48:09,451 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,451 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,451 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,451 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+12:48:09,451 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,451 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,451 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+12:48:09,451 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,451 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+12:48:09,452 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move head H1 to Safe-Z.)
+12:48:09,452 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+12:48:09,452 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+12:48:09,453 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:48:09,453 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+12:48:09,453 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@6df2c32c, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:48:09,454 DEBUG org.openpnp.machine.reference.ReferenceCamera Wide.moveToSafeZ(1.0)
+12:48:09,454 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@4d5c977a, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:48:09,454 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+12:48:09,454 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:48:09,455 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+12:48:09,455 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:48:09,455 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Check fiducials.)
+12:48:09,460 DEBUG org.openpnp.vision.FiducialLocator Chose FID1 and FID2
+12:48:09,460 DEBUG org.openpnp.vision.FiducialLocator Locating FID1
+12:48:09,463 DEBUG org.openpnp.vision.FiducialLocator Looking for FID1 at (5.994319, 6.413460, 0.000000, 0.007895 mm)
+12:48:09,464 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+12:48:09,464 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+12:48:09,464 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:48:09,465 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+12:48:09,465 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@6df2c32c, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:48:09,465 DEBUG org.openpnp.machine.reference.ReferenceCamera Wide.moveToSafeZ(1.0)
+12:48:09,466 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@4d5c977a, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:48:09,466 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+12:48:09,466 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:48:09,466 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+12:48:09,466 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+12:48:09,467 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((5.994319, 6.413460, NaN, 0.007895 mm), 1.0)
+12:48:09,467 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@6df2c32c, (5.994319, 6.413460, NaN, 0.007895 mm), 1.0)
+12:48:09,468 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((5.994319, 6.413460, 0.000000, 0.007895 mm), 1.0)
+12:48:09,468 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@6df2c32c, (5.994319, 6.413460, 0.000000, 0.007895 mm), 1.0)
+12:48:09,731 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobEncounteredError(MachineMovementError, null)
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.514 sec <<< FAILURE!
+testSampleJob(SampleJobTest)  Time elapsed: 4.414 sec  <<< ERROR!
+java.lang.Exception: MachineMovementError null
+	at SampleJobTest$SampleJobTestProcessorListener.jobEncounteredError(SampleJobTest.java:120)
+	at org.openpnp.spi.base.AbstractJobProcessor.fireJobEncounteredError(AbstractJobProcessor.java:160)
+	at org.openpnp.machine.reference.ReferenceJobProcessor.run(ReferenceJobProcessor.java:126)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+Results :
+
+Tests in error: 
+  testSampleJob(SampleJobTest): MachineMovementError null
+
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project openpnp-gui: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/brunomachado/bugs/openpnp/1/src/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

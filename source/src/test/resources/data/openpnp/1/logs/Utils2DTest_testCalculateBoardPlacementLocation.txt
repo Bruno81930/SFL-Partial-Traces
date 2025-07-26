@@ -1,0 +1,35 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/brunomachado/.m2/repository/org/slf4j/slf4j-log4j12/1.6.4/slf4j-log4j12-1.6.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/brunomachado/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+test1
+board: (5.000000, 15.000000, -8.000000, 0.000000 mm) 100mm
+place: (55.000000, 5.000000, 0.000000, 0.000000 mm)
+results (60.000000, 20.000000, -8.000000, 0.000000 mm)
+test2
+results (45.580602, 17.699407, -8.000000, 0.000000 mm)
+test3
+results (70.497539, 1.865309, -8.000000, 0.000000 mm)
+test4
+test5
+results (69.142136, 12.071068, -8.000000, 0.000000 mm)
+test6
+board: (30.004000, 31.386000, -8.000000, 74.646000 mm) 100mm
+place: (31.000000, 6.000000, 0.000000, 0.000000 mm)
+results (32.426392, 62.868249, -8.000000, 74.646000 mm)
+inverse: (31.000000, 6.000000, 0.000000, 0.000000 mm)
+results (32.426392, 62.868249, -8.000000, 74.646000 mm)
+test7
+test8
+board: (5.000000, 15.000000, -8.000000, 0.000000 mm) Width=100.0
+place: (55.000000, 5.000000, 0.000000, 0.000000 mm)
+results (50.000000, 20.000000, -8.000000, 0.000000 mm)
+test9
+results (35.580602, 17.699407, -8.000000, 0.000000 mm)
+test10
+results (60.497539, 1.865309, -8.000000, 0.000000 mm)
+test11
+test12
+results (59.142136, 12.071068, -8.000000, 0.000000 mm)
+test13
+

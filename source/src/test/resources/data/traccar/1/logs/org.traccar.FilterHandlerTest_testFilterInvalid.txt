@@ -1,0 +1,2 @@
+10:28:11,979 INFO  org.traccar.helper.Log Position filtered from 0
+

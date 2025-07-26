@@ -1,0 +1,1016 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/brunomachado/.m2/repository/org/slf4j/slf4j-log4j12/1.6.4/slf4j-log4j12-1.6.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/brunomachado/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+Configuration directory: /var/folders/v7/y59676z563x2v1zr0pp_jcq40000gn/T/1700473478392-0/.openpnp
+09:44:38,414 INFO  org.openpnp.model.Configuration No packages.xml found in configuration directory, loading defaults.
+09:44:38,565 INFO  org.openpnp.model.Configuration No parts.xml found in configuration directory, loading defaults.
+09:44:38,578 INFO  org.openpnp.model.Configuration No machine.xml found in configuration directory, loading defaults.
+09:44:40,665 INFO  org.openpnp.model.Configuration Defaults were loaded. Saving to configuration directory.
+09:44:40,757 DEBUG org.openpnp.spi.base.AbstractJobProcessor stop()
+09:44:40,759 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobStateChanged(Stopped)
+09:44:40,760 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobLoaded()
+09:44:40,760 DEBUG org.openpnp.machine.reference.ReferenceMachine setEnabled(true)
+09:44:40,760 DEBUG org.openpnp.machine.reference.driver.NullDriver setEnabled(true)
+09:44:40,760 DEBUG org.openpnp.spi.base.AbstractJobProcessor start()
+09:44:40,760 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobStateChanged(Running)
+09:44:40,761 DEBUG org.openpnp.planner.SimpleJobPlanner Planned 32 solutions
+09:44:40,761 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,761 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,761 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,761 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,762 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,762 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,762 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,762 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,763 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,764 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,764 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,764 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,764 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,764 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,764 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,764 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,764 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,764 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,764 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,765 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,765 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,765 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,765 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,765 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,765 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,765 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,765 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,765 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,765 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,765 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,767 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,767 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,767 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,768 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,768 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,768 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,768 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,768 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,768 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,768 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,768 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,768 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,768 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,768 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,771 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,771 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,771 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,771 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,771 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,771 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,771 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,771 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,771 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,771 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,772 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,772 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,772 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,772 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,772 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,772 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,772 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,772 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,772 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,772 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,773 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,774 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,775 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,776 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,777 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,778 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,778 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,778 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,778 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,778 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,778 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,778 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,778 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,778 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,778 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,778 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,778 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,778 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,779 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,779 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,779 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,779 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,779 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,779 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,779 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,779 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,779 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,779 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,779 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,779 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,779 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,780 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,781 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,782 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,782 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,782 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,782 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,782 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,782 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,782 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,782 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,782 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,782 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,782 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,782 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,782 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,783 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,784 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,784 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,784 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,784 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,784 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,784 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,784 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,784 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,784 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,784 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,784 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,784 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,784 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,785 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,787 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,788 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,788 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,788 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,788 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,788 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,788 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,788 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,788 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,788 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,788 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,788 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,788 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,788 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,789 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,789 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,789 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,789 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,789 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,789 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,789 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,789 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,789 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,789 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,789 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,789 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,789 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,790 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,790 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,790 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,790 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,790 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,790 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,790 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,790 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,790 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,791 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,791 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,791 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,791 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,791 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,791 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,791 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,791 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,791 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,792 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,792 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,792 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,792 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,792 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,792 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,792 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,792 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,793 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,794 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,794 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,794 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,794 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,794 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,794 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,794 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,794 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,794 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,794 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,794 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,794 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,795 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,795 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,795 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,795 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,795 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,795 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,796 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,796 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,796 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,796 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,796 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,796 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,796 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,796 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,796 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,796 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,796 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,796 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,797 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,797 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,797 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,797 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,797 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,797 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,797 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,797 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,797 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,797 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,797 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,798 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,798 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,798 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,798 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,798 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,798 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,798 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,798 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,798 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,798 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,798 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,799 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,800 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,801 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,801 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,801 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,801 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,801 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,801 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,801 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,801 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,801 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,801 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,801 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,801 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,801 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,802 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,802 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,802 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,802 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,802 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,802 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,802 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,802 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,802 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,802 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,802 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,802 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,803 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,803 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,803 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,803 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,803 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,803 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,803 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,803 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,803 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,803 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,803 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,803 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:40,803 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,804 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,804 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,804 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:40,804 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,804 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,804 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:40,804 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,804 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:40,804 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move head H1 to Safe-Z.)
+09:44:40,804 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:40,805 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:40,806 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:40,806 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:40,807 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:40,807 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:40,807 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:40,807 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:40,808 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:40,808 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Check fiducials.)
+09:44:40,808 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Chose FID1 and FID2
+09:44:40,808 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID1
+09:44:40,811 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID1 at (5.994319, 6.413460, 0.000000, 0.007895 mm)
+09:44:40,812 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:40,812 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:40,812 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:40,812 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:40,812 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:40,812 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:40,812 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:40,812 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:40,812 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:40,813 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((5.994319, 6.413460, NaN, 0.007895 mm), 1.0)
+09:44:40,813 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (5.994319, 6.413460, NaN, 0.007895 mm), 1.0)
+09:44:40,813 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((5.994319, 6.413460, 0.000000, 0.007895 mm), 1.0)
+09:44:40,813 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (5.994319, 6.413460, 0.000000, 0.007895 mm), 1.0)
+09:44:41,225 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID1 located at (5.740339, 6.117150, 0.000000, 0.007895 mm)
+09:44:41,226 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((5.740339, 6.117150, 0.000000, 0.007895 mm), 1.0)
+09:44:41,226 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (5.740339, 6.117150, 0.000000, 0.007895 mm), 1.0)
+09:44:41,589 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID1 located at (5.740339, 6.117150, 0.000000, 0.007895 mm)
+09:44:41,589 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((5.740339, 6.117150, 0.000000, 0.007895 mm), 1.0)
+09:44:41,590 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (5.740339, 6.117150, 0.000000, 0.007895 mm), 1.0)
+09:44:41,938 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID1 located at (5.740339, 6.117150, 0.000000, 0.007895 mm)
+09:44:41,939 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((5.740339, 6.117150, 0.000000, 0.007895 mm), 1.0)
+09:44:41,939 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (5.740339, 6.117150, 0.000000, 0.007895 mm), 1.0)
+09:44:41,939 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID2
+09:44:41,939 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID2 at (38.490943, 30.917938, 0.000000, 0.007895 mm)
+09:44:41,940 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:41,940 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:41,940 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:41,940 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:41,940 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:41,940 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:41,940 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:41,940 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:41,940 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:41,941 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((38.490943, 30.917938, NaN, 0.007895 mm), 1.0)
+09:44:41,941 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (38.490943, 30.917938, NaN, 0.007895 mm), 1.0)
+09:44:41,941 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((38.490943, 30.917938, 0.000000, 0.007895 mm), 1.0)
+09:44:41,941 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (38.490943, 30.917938, 0.000000, 0.007895 mm), 1.0)
+09:44:42,294 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID2 located at (38.279293, 30.621628, 0.000000, 0.007895 mm)
+09:44:42,295 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((38.279293, 30.621628, 0.000000, 0.007895 mm), 1.0)
+09:44:42,295 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (38.279293, 30.621628, 0.000000, 0.007895 mm), 1.0)
+09:44:42,644 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID2 located at (38.279293, 30.621628, 0.000000, 0.007895 mm)
+09:44:42,644 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((38.279293, 30.621628, 0.000000, 0.007895 mm), 1.0)
+09:44:42,644 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (38.279293, 30.621628, 0.000000, 0.007895 mm), 1.0)
+09:44:42,993 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID2 located at (38.279293, 30.621628, 0.000000, 0.007895 mm)
+09:44:42,993 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((38.279293, 30.621628, 0.000000, 0.007895 mm), 1.0)
+09:44:42,993 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (38.279293, 30.621628, 0.000000, 0.007895 mm), 1.0)
+09:44:42,994 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Chose FID1 and FID2
+09:44:42,994 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID1
+09:44:42,995 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID1 at (7.700972, 63.941354, 0.000000, -19.947362 mm)
+09:44:42,995 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:42,995 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:42,995 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:42,996 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:42,996 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:42,996 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:42,996 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:42,996 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:42,997 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:42,997 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((7.700972, 63.941354, NaN, -19.947362 mm), 1.0)
+09:44:42,997 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (7.700972, 63.941354, NaN, -19.947362 mm), 1.0)
+09:44:42,997 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((7.700972, 63.941354, 0.000000, -19.947362 mm), 1.0)
+09:44:42,997 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (7.700972, 63.941354, 0.000000, -19.947362 mm), 1.0)
+09:44:43,377 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID1 located at (7.489322, 64.491644, 0.000000, -19.947362 mm)
+09:44:43,378 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((7.489322, 64.491644, 0.000000, -19.947362 mm), 1.0)
+09:44:43,378 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (7.489322, 64.491644, 0.000000, -19.947362 mm), 1.0)
+09:44:43,753 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID1 located at (7.489322, 64.491644, 0.000000, -19.947362 mm)
+09:44:43,754 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((7.489322, 64.491644, 0.000000, -19.947362 mm), 1.0)
+09:44:43,754 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (7.489322, 64.491644, 0.000000, -19.947362 mm), 1.0)
+09:44:44,128 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID1 located at (7.489322, 64.491644, 0.000000, -19.947362 mm)
+09:44:44,128 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((7.489322, 64.491644, 0.000000, -19.947362 mm), 1.0)
+09:44:44,128 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (7.489322, 64.491644, 0.000000, -19.947362 mm), 1.0)
+09:44:44,128 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID2
+09:44:44,129 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID2 at (46.609520, 75.883920, 0.000000, -19.947362 mm)
+09:44:44,129 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:44,129 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:44,129 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:44,129 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:44,129 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:44,129 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:44,130 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:44,130 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:44,130 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:44,130 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((46.609520, 75.883920, NaN, -19.947362 mm), 1.0)
+09:44:44,130 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (46.609520, 75.883920, NaN, -19.947362 mm), 1.0)
+09:44:44,130 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((46.609520, 75.883920, 0.000000, -19.947362 mm), 1.0)
+09:44:44,130 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (46.609520, 75.883920, 0.000000, -19.947362 mm), 1.0)
+09:44:44,502 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID2 located at (46.397870, 76.476540, 0.000000, -19.947362 mm)
+09:44:44,502 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((46.397870, 76.476540, 0.000000, -19.947362 mm), 1.0)
+09:44:44,503 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (46.397870, 76.476540, 0.000000, -19.947362 mm), 1.0)
+09:44:44,878 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID2 located at (46.397870, 76.476540, 0.000000, -19.947362 mm)
+09:44:44,878 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((46.397870, 76.476540, 0.000000, -19.947362 mm), 1.0)
+09:44:44,878 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (46.397870, 76.476540, 0.000000, -19.947362 mm), 1.0)
+09:44:45,260 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID2 located at (46.397870, 76.476540, 0.000000, -19.947362 mm)
+09:44:45,260 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((46.397870, 76.476540, 0.000000, -19.947362 mm), 1.0)
+09:44:45,260 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (46.397870, 76.476540, 0.000000, -19.947362 mm), 1.0)
+09:44:45,261 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Chose FID4 and FID5
+09:44:45,261 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID4
+09:44:45,261 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID4 at (66.968558, 9.274551, 0.000000, 0.604803 mm)
+09:44:45,261 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:45,261 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:45,261 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:45,261 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:45,261 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:45,262 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:45,262 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:45,262 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:45,262 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:45,262 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((66.968558, 9.274551, NaN, 0.604803 mm), 1.0)
+09:44:45,262 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (66.968558, 9.274551, NaN, 0.604803 mm), 1.0)
+09:44:45,262 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((66.968558, 9.274551, 0.000000, 0.604803 mm), 1.0)
+09:44:45,262 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (66.968558, 9.274551, 0.000000, 0.604803 mm), 1.0)
+09:44:45,623 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID4 located at (66.587588, 8.851251, 0.000000, 0.604803 mm)
+09:44:45,623 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((66.587588, 8.851251, 0.000000, 0.604803 mm), 1.0)
+09:44:45,623 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (66.587588, 8.851251, 0.000000, 0.604803 mm), 1.0)
+09:44:45,979 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID4 located at (66.587588, 8.851251, 0.000000, 0.604803 mm)
+09:44:45,979 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((66.587588, 8.851251, 0.000000, 0.604803 mm), 1.0)
+09:44:45,979 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (66.587588, 8.851251, 0.000000, 0.604803 mm), 1.0)
+09:44:46,335 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID4 located at (66.587588, 8.851251, 0.000000, 0.604803 mm)
+09:44:46,336 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((66.587588, 8.851251, 0.000000, 0.604803 mm), 1.0)
+09:44:46,336 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (66.587588, 8.851251, 0.000000, 0.604803 mm), 1.0)
+09:44:46,336 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID5
+09:44:46,336 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID5 at (98.708162, 34.110966, 0.000000, 0.604803 mm)
+09:44:46,337 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:46,337 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:46,337 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:46,337 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:46,337 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:46,337 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:46,337 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:46,337 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:46,337 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:46,337 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((98.708162, 34.110966, NaN, 0.604803 mm), 1.0)
+09:44:46,338 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (98.708162, 34.110966, NaN, 0.604803 mm), 1.0)
+09:44:46,338 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((98.708162, 34.110966, 0.000000, 0.604803 mm), 1.0)
+09:44:46,338 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (98.708162, 34.110966, 0.000000, 0.604803 mm), 1.0)
+09:44:46,698 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID5 located at (98.623502, 33.391356, 0.000000, 0.604803 mm)
+09:44:46,699 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((98.623502, 33.391356, 0.000000, 0.604803 mm), 1.0)
+09:44:46,699 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (98.623502, 33.391356, 0.000000, 0.604803 mm), 1.0)
+09:44:47,066 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID5 located at (98.623502, 33.391356, 0.000000, 0.604803 mm)
+09:44:47,066 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((98.623502, 33.391356, 0.000000, 0.604803 mm), 1.0)
+09:44:47,066 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (98.623502, 33.391356, 0.000000, 0.604803 mm), 1.0)
+09:44:47,424 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID5 located at (98.623502, 33.391356, 0.000000, 0.604803 mm)
+09:44:47,424 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((98.623502, 33.391356, 0.000000, 0.604803 mm), 1.0)
+09:44:47,424 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (98.623502, 33.391356, 0.000000, 0.604803 mm), 1.0)
+09:44:47,425 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Chose FID4 and FID5
+09:44:47,425 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID4
+09:44:47,425 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID4 at (85.150492, 49.746592, 0.000000, 36.608756 mm)
+09:44:47,425 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:47,425 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:47,425 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:47,425 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:47,425 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:47,425 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:47,426 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:47,426 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:47,426 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:47,426 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((85.150492, 49.746592, NaN, 36.608756 mm), 1.0)
+09:44:47,426 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (85.150492, 49.746592, NaN, 36.608756 mm), 1.0)
+09:44:47,426 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((85.150492, 49.746592, 0.000000, 36.608756 mm), 1.0)
+09:44:47,426 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (85.150492, 49.746592, 0.000000, 36.608756 mm), 1.0)
+09:44:47,802 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID4 located at (84.896512, 49.788922, 0.000000, 36.608756 mm)
+09:44:47,802 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((84.896512, 49.788922, 0.000000, 36.608756 mm), 1.0)
+09:44:47,802 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (84.896512, 49.788922, 0.000000, 36.608756 mm), 1.0)
+09:44:48,180 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID4 located at (84.896512, 49.788922, 0.000000, 36.608756 mm)
+09:44:48,180 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((84.896512, 49.788922, 0.000000, 36.608756 mm), 1.0)
+09:44:48,180 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (84.896512, 49.788922, 0.000000, 36.608756 mm), 1.0)
+09:44:48,563 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID4 located at (84.896512, 49.788922, 0.000000, 36.608756 mm)
+09:44:48,563 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((84.896512, 49.788922, 0.000000, 36.608756 mm), 1.0)
+09:44:48,563 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (84.896512, 49.788922, 0.000000, 36.608756 mm), 1.0)
+09:44:48,563 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID5
+09:44:48,563 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID5 at (96.227220, 88.496509, 0.000000, 36.608756 mm)
+09:44:48,563 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:48,563 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:48,563 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:48,564 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:48,564 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:48,564 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:48,564 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:48,564 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:48,564 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:48,564 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((96.227220, 88.496509, NaN, 36.608756 mm), 1.0)
+09:44:48,564 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (96.227220, 88.496509, NaN, 36.608756 mm), 1.0)
+09:44:48,564 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((96.227220, 88.496509, 0.000000, 36.608756 mm), 1.0)
+09:44:48,564 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (96.227220, 88.496509, 0.000000, 36.608756 mm), 1.0)
+09:44:48,918 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID5 located at (95.930910, 88.538839, 0.000000, 36.608756 mm)
+09:44:48,918 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((95.930910, 88.538839, 0.000000, 36.608756 mm), 1.0)
+09:44:48,918 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (95.930910, 88.538839, 0.000000, 36.608756 mm), 1.0)
+09:44:49,278 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID5 located at (95.930910, 88.538839, 0.000000, 36.608756 mm)
+09:44:49,278 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((95.930910, 88.538839, 0.000000, 36.608756 mm), 1.0)
+09:44:49,278 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (95.930910, 88.538839, 0.000000, 36.608756 mm), 1.0)
+09:44:49,623 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID5 located at (95.930910, 88.538839, 0.000000, 36.608756 mm)
+09:44:49,624 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((95.930910, 88.538839, 0.000000, 36.608756 mm), 1.0)
+09:44:49,624 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (95.930910, 88.538839, 0.000000, 36.608756 mm), 1.0)
+09:44:49,624 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Chose FID4 and FID5
+09:44:49,624 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID4
+09:44:49,624 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID4 at (62.325544, 121.421004, 0.000000, -28.179275 mm)
+09:44:49,624 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:49,624 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:49,624 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:49,624 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:49,624 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:49,625 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:49,625 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:49,625 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:49,625 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:49,625 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((62.325544, 121.421004, NaN, -28.179275 mm), 1.0)
+09:44:49,625 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (62.325544, 121.421004, NaN, -28.179275 mm), 1.0)
+09:44:49,625 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((62.325544, 121.421004, 0.000000, -28.179275 mm), 1.0)
+09:44:49,625 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (62.325544, 121.421004, 0.000000, -28.179275 mm), 1.0)
+09:44:50,008 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID4 located at (62.367874, 121.124694, 0.000000, -28.179275 mm)
+09:44:50,008 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((62.367874, 121.124694, 0.000000, -28.179275 mm), 1.0)
+09:44:50,009 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (62.367874, 121.124694, 0.000000, -28.179275 mm), 1.0)
+09:44:50,384 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID4 located at (62.367874, 121.124694, 0.000000, -28.179275 mm)
+09:44:50,384 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((62.367874, 121.124694, 0.000000, -28.179275 mm), 1.0)
+09:44:50,384 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (62.367874, 121.124694, 0.000000, -28.179275 mm), 1.0)
+09:44:50,763 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID4 located at (62.367874, 121.124694, 0.000000, -28.179275 mm)
+09:44:50,764 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((62.367874, 121.124694, 0.000000, -28.179275 mm), 1.0)
+09:44:50,764 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (62.367874, 121.124694, 0.000000, -28.179275 mm), 1.0)
+09:44:50,764 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID5
+09:44:50,764 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID5 at (102.102405, 127.905702, 0.000000, -28.179275 mm)
+09:44:50,764 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:50,764 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:50,764 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:50,764 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:50,764 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:50,764 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:50,765 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:50,765 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:50,765 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:50,765 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((102.102405, 127.905702, NaN, -28.179275 mm), 1.0)
+09:44:50,765 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (102.102405, 127.905702, NaN, -28.179275 mm), 1.0)
+09:44:50,765 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((102.102405, 127.905702, 0.000000, -28.179275 mm), 1.0)
+09:44:50,765 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (102.102405, 127.905702, 0.000000, -28.179275 mm), 1.0)
+09:44:51,139 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID5 located at (102.144735, 127.609392, 0.000000, -28.179275 mm)
+09:44:51,139 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((102.144735, 127.609392, 0.000000, -28.179275 mm), 1.0)
+09:44:51,139 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (102.144735, 127.609392, 0.000000, -28.179275 mm), 1.0)
+09:44:51,517 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID5 located at (102.144735, 127.609392, 0.000000, -28.179275 mm)
+09:44:51,517 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((102.144735, 127.609392, 0.000000, -28.179275 mm), 1.0)
+09:44:51,517 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (102.144735, 127.609392, 0.000000, -28.179275 mm), 1.0)
+09:44:51,896 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID5 located at (102.144735, 127.609392, 0.000000, -28.179275 mm)
+09:44:51,896 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((102.144735, 127.609392, 0.000000, -28.179275 mm), 1.0)
+09:44:51,896 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (102.144735, 127.609392, 0.000000, -28.179275 mm), 1.0)
+09:44:51,896 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Chose FID1 and FID2
+09:44:51,896 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID1
+09:44:51,897 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID1 at (152.396845, 150.267749, 0.000000, 157.092969 mm)
+09:44:51,897 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:51,897 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:51,897 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:51,897 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:51,897 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:51,898 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:51,898 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:51,898 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:51,898 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:51,898 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((152.396845, 150.267749, NaN, 157.092969 mm), 1.0)
+09:44:51,898 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (152.396845, 150.267749, NaN, 157.092969 mm), 1.0)
+09:44:51,898 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((152.396845, 150.267749, 0.000000, 157.092969 mm), 1.0)
+09:44:51,898 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (152.396845, 150.267749, 0.000000, 157.092969 mm), 1.0)
+09:44:52,276 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID1 located at (153.285775, 150.521729, 0.000000, 157.092969 mm)
+09:44:52,276 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((153.285775, 150.521729, 0.000000, 157.092969 mm), 1.0)
+09:44:52,276 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (153.285775, 150.521729, 0.000000, 157.092969 mm), 1.0)
+09:44:52,651 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID1 located at (153.285775, 150.521729, 0.000000, 157.092969 mm)
+09:44:52,652 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((153.285775, 150.521729, 0.000000, 157.092969 mm), 1.0)
+09:44:52,652 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (153.285775, 150.521729, 0.000000, 157.092969 mm), 1.0)
+09:44:53,030 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID1 located at (153.285775, 150.521729, 0.000000, 157.092969 mm)
+09:44:53,031 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((153.285775, 150.521729, 0.000000, 157.092969 mm), 1.0)
+09:44:53,031 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (153.285775, 150.521729, 0.000000, 157.092969 mm), 1.0)
+09:44:53,031 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID2
+09:44:53,031 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID2 at (112.923566, 140.350079, 0.000000, 157.092969 mm)
+09:44:53,031 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:53,031 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:53,031 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:53,031 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:53,031 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:53,032 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:53,032 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:53,032 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:53,032 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:53,032 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((112.923566, 140.350079, NaN, 157.092969 mm), 1.0)
+09:44:53,032 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (112.923566, 140.350079, NaN, 157.092969 mm), 1.0)
+09:44:53,032 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((112.923566, 140.350079, 0.000000, 157.092969 mm), 1.0)
+09:44:53,032 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (112.923566, 140.350079, 0.000000, 157.092969 mm), 1.0)
+09:44:53,403 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID2 located at (113.727836, 141.027359, 0.000000, 157.092969 mm)
+09:44:53,404 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((113.727836, 141.027359, 0.000000, 157.092969 mm), 1.0)
+09:44:53,404 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (113.727836, 141.027359, 0.000000, 157.092969 mm), 1.0)
+09:44:53,775 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID2 located at (113.727836, 141.027359, 0.000000, 157.092969 mm)
+09:44:53,775 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((113.727836, 141.027359, 0.000000, 157.092969 mm), 1.0)
+09:44:53,775 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (113.727836, 141.027359, 0.000000, 157.092969 mm), 1.0)
+09:44:54,143 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID2 located at (113.727836, 141.027359, 0.000000, 157.092969 mm)
+09:44:54,144 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((113.727836, 141.027359, 0.000000, 157.092969 mm), 1.0)
+09:44:54,144 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (113.727836, 141.027359, 0.000000, 157.092969 mm), 1.0)
+09:44:54,144 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Chose FID4 and FID5
+09:44:54,144 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID4
+09:44:54,144 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID4 at (183.291909, 143.464787, 0.000000, -140.606916 mm)
+09:44:54,144 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:54,144 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:54,144 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:54,144 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:54,145 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:54,145 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:54,145 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:54,145 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:54,145 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:54,145 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((183.291909, 143.464787, NaN, -140.606916 mm), 1.0)
+09:44:54,145 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (183.291909, 143.464787, NaN, -140.606916 mm), 1.0)
+09:44:54,145 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((183.291909, 143.464787, 0.000000, -140.606916 mm), 1.0)
+09:44:54,145 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (183.291909, 143.464787, 0.000000, -140.606916 mm), 1.0)
+09:44:54,524 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID4 located at (183.969189, 143.380127, 0.000000, -140.606916 mm)
+09:44:54,524 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((183.969189, 143.380127, 0.000000, -140.606916 mm), 1.0)
+09:44:54,524 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (183.969189, 143.380127, 0.000000, -140.606916 mm), 1.0)
+09:44:54,884 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID4 located at (183.969189, 143.380127, 0.000000, -140.606916 mm)
+09:44:54,884 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((183.969189, 143.380127, 0.000000, -140.606916 mm), 1.0)
+09:44:54,885 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (183.969189, 143.380127, 0.000000, -140.606916 mm), 1.0)
+09:44:55,242 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID4 located at (183.969189, 143.380127, 0.000000, -140.606916 mm)
+09:44:55,242 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((183.969189, 143.380127, 0.000000, -140.606916 mm), 1.0)
+09:44:55,242 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (183.969189, 143.380127, 0.000000, -140.606916 mm), 1.0)
+09:44:55,242 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID5
+09:44:55,242 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID5 at (174.110596, 104.222546, 0.000000, -140.606916 mm)
+09:44:55,242 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:55,242 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:55,242 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:55,243 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:55,243 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:55,243 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:55,243 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:55,243 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:55,243 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:55,243 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((174.110596, 104.222546, NaN, -140.606916 mm), 1.0)
+09:44:55,243 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (174.110596, 104.222546, NaN, -140.606916 mm), 1.0)
+09:44:55,243 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((174.110596, 104.222546, 0.000000, -140.606916 mm), 1.0)
+09:44:55,243 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (174.110596, 104.222546, 0.000000, -140.606916 mm), 1.0)
+09:44:55,589 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID5 located at (172.840696, 104.645846, 0.000000, -140.606916 mm)
+09:44:55,589 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((172.840696, 104.645846, 0.000000, -140.606916 mm), 1.0)
+09:44:55,589 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (172.840696, 104.645846, 0.000000, -140.606916 mm), 1.0)
+09:44:55,942 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID5 located at (172.840696, 104.645846, 0.000000, -140.606916 mm)
+09:44:55,942 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((172.840696, 104.645846, 0.000000, -140.606916 mm), 1.0)
+09:44:55,942 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (172.840696, 104.645846, 0.000000, -140.606916 mm), 1.0)
+09:44:56,297 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID5 located at (172.840696, 104.645846, 0.000000, -140.606916 mm)
+09:44:56,298 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((172.840696, 104.645846, 0.000000, -140.606916 mm), 1.0)
+09:44:56,298 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (172.840696, 104.645846, 0.000000, -140.606916 mm), 1.0)
+09:44:56,298 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Chose FID1 and FID2
+09:44:56,298 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID1
+09:44:56,298 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID1 at (36.536452, 103.319919, 0.000000, 76.646032 mm)
+09:44:56,298 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:56,298 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:56,298 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:56,299 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:56,299 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:56,299 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:56,299 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:56,299 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:56,299 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:56,299 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((36.536452, 103.319919, NaN, 76.646032 mm), 1.0)
+09:44:56,299 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (36.536452, 103.319919, NaN, 76.646032 mm), 1.0)
+09:44:56,299 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((36.536452, 103.319919, 0.000000, 76.646032 mm), 1.0)
+09:44:56,299 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (36.536452, 103.319919, 0.000000, 76.646032 mm), 1.0)
+09:44:56,651 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID1 located at (36.324802, 103.446909, 0.000000, 76.646032 mm)
+09:44:56,651 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((36.324802, 103.446909, 0.000000, 76.646032 mm), 1.0)
+09:44:56,651 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (36.324802, 103.446909, 0.000000, 76.646032 mm), 1.0)
+09:44:57,008 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID1 located at (36.324802, 103.446909, 0.000000, 76.646032 mm)
+09:44:57,008 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((36.324802, 103.446909, 0.000000, 76.646032 mm), 1.0)
+09:44:57,009 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (36.324802, 103.446909, 0.000000, 76.646032 mm), 1.0)
+09:44:57,364 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID1 located at (36.324802, 103.446909, 0.000000, 76.646032 mm)
+09:44:57,365 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((36.324802, 103.446909, 0.000000, 76.646032 mm), 1.0)
+09:44:57,365 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (36.324802, 103.446909, 0.000000, 76.646032 mm), 1.0)
+09:44:57,365 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Locating FID2
+09:44:57,365 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator Looking for FID2 at (20.205294, 140.599850, 0.000000, 76.646032 mm)
+09:44:57,365 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:57,365 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:57,365 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:57,365 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:57,365 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:57,366 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:57,366 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:57,366 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:57,366 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:57,366 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((20.205294, 140.599850, NaN, 76.646032 mm), 1.0)
+09:44:57,366 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (20.205294, 140.599850, NaN, 76.646032 mm), 1.0)
+09:44:57,366 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((20.205294, 140.599850, 0.000000, 76.646032 mm), 1.0)
+09:44:57,366 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (20.205294, 140.599850, 0.000000, 76.646032 mm), 1.0)
+09:44:57,724 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID2 located at (21.305874, 141.319460, 0.000000, 76.646032 mm)
+09:44:57,724 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((21.305874, 141.319460, 0.000000, 76.646032 mm), 1.0)
+09:44:57,724 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (21.305874, 141.319460, 0.000000, 76.646032 mm), 1.0)
+09:44:58,084 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID2 located at (21.305874, 141.319460, 0.000000, 76.646032 mm)
+09:44:58,084 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((21.305874, 141.319460, 0.000000, 76.646032 mm), 1.0)
+09:44:58,084 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (21.305874, 141.319460, 0.000000, 76.646032 mm), 1.0)
+09:44:58,443 DEBUG org.openpnp.machine.reference.vision.ReferenceFiducialLocator FID2 located at (21.305874, 141.319460, 0.000000, 76.646032 mm)
+09:44:58,444 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((21.305874, 141.319460, 0.000000, 76.646032 mm), 1.0)
+09:44:58,444 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (21.305874, 141.319460, 0.000000, 76.646032 mm), 1.0)
+09:44:58,444 DEBUG org.openpnp.planner.SimpleJobPlanner Planned 32 solutions
+09:44:58,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:58,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:58,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:58,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:58,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:58,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:58,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:58,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:58,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:58,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:58,444 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0201-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0402-1K) => true
+09:44:58,445 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0603-1K) => true
+09:44:58,446 DEBUG org.openpnp.spi.base.AbstractJobProcessor firePartProcessingStarted(board (pnp-test.board.xml), location ((3.740615, 4.116875, 0.000000, -0.027953 mm)), side (Top), id R1, location (31.000000, 6.000000, 0.000000, 0.000000 mm), side Top, part id R0805-1K, name null, heightUnits Millimeters, height 0.000000, packageId (R0805), type Place)
+09:44:58,446 INFO  SampleJobTest$SampleJobTestProcessorListener Start R1
+09:44:58,446 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip NT1.canHandle(R0805-1K) => true
+09:44:58,446 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move nozzle N1 to Safe-Z at ((21.305874, 141.319460, 0.000000, 76.646032 mm)).)
+09:44:58,446 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:58,446 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:58,446 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Request part feed from feeder R0805.)
+09:44:58,447 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:58,447 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:58,447 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:58,447 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:58,447 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:58,447 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:58,447 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:58,447 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:58,447 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:58,447 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((147.347000, 40.285000, NaN, 0.000000 mm), 1.0)
+09:44:58,447 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (147.347000, 40.285000, NaN, 0.000000 mm), 1.0)
+09:44:58,448 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((147.347000, 40.285000, 0.000000, 0.000000 mm), 1.0)
+09:44:58,448 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (147.347000, 40.285000, 0.000000, 0.000000 mm), 1.0)
+09:44:58,772 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobEncounteredError(FeederError, null)
+09:44:58,772 DEBUG org.openpnp.machine.reference.ReferenceHead H1.moveToSafeZ(1.0)
+09:44:58,772 DEBUG org.openpnp.machine.reference.ReferenceNozzle N1.moveToSafeZ(1.0)
+09:44:58,773 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(N1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:58,773 DEBUG org.openpnp.machine.reference.ReferenceCamera Zoom.moveToSafeZ(1.0)
+09:44:58,773 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:58,773 DEBUG org.openpnp.machine.reference.ReferenceActuator A1.moveToSafeZ(1.0)
+09:44:58,773 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(A1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:58,773 DEBUG org.openpnp.machine.reference.ReferencePasteDispenser D1.moveToSafeZ(1.0)
+09:44:58,773 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(D1, (NaN, NaN, 0.000000, NaN mm), 1.0)
+09:44:58,773 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((147.431982, 36.285903, NaN, 0.000000 mm), 1.0)
+09:44:58,773 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (147.431982, 36.285903, NaN, 0.000000 mm), 1.0)
+09:44:58,773 DEBUG org.openpnp.machine.reference.ReferenceCamera moveTo((147.431982, 36.285903, 0.000000, 0.000000 mm), 1.0)
+09:44:58,773 DEBUG org.openpnp.machine.reference.driver.NullDriver moveTo(org.openpnp.machine.reference.camera.ImageCamera@35803188, (147.431982, 36.285903, 0.000000, 0.000000 mm), 1.0)
+

@@ -1,0 +1,9 @@
+SampleJobTest testSampleJob
+Utils2DTest testCalculateBoardLocationRandom
+Utils2DTest testCalculateBoardPlacementLocation
+BasicJobTest testSimpleJob
+OpenCvTest openCvWorks
+EagleMountsmdUlpImporterTest test
+VisionUtilsTest testOffsets
+EagleLoaderTest testLoadBoard
+EagleLoaderTest testLoadSchematic

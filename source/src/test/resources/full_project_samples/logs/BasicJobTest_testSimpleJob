@@ -1,0 +1,159 @@
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running BasicJobTest
+Configuration directory: /var/folders/v7/y59676z563x2v1zr0pp_jcq40000gn/T/1696499300274-0/.openpnp
+12:48:21,750 DEBUG org.openpnp.spi.base.AbstractJobProcessor stop()
+12:48:21,756 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobStateChanged(Stopped)
+12:48:21,756 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobLoaded()
+12:48:21,757 DEBUG org.openpnp.machine.reference.ReferenceMachine setEnabled(true)
+12:48:21,757 DEBUG org.openpnp.machine.reference.driver.test.TestDriver setEnabled(true)
+12:48:21,757 DEBUG org.openpnp.spi.base.AbstractJobProcessor start()
+12:48:21,758 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobStateChanged(Running)
+12:48:21,760 DEBUG org.openpnp.planner.SimpleJobPlanner Planned 2 solutions
+12:48:21,760 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => false
+12:48:21,760 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => true
+12:48:21,761 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => false
+12:48:21,761 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => true
+12:48:21,762 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => false
+12:48:21,762 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => true
+12:48:21,762 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move head ReferenceHead to Safe-Z.)
+12:48:21,762 DEBUG org.openpnp.machine.reference.ReferenceHead ReferenceHead.moveToSafeZ(1.0)
+12:48:21,764 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,765 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,765 DEBUG org.openpnp.machine.reference.ReferenceActuator ReferenceActuator.moveToSafeZ(1.0)
+12:48:21,766 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Check fiducials.)
+12:48:21,768 DEBUG org.openpnp.planner.SimpleJobPlanner Planned 2 solutions
+12:48:21,768 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => false
+12:48:21,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => true
+12:48:21,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => false
+12:48:21,769 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => true
+12:48:21,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => false
+12:48:21,770 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => true
+12:48:21,772 DEBUG org.openpnp.spi.base.AbstractJobProcessor firePartProcessingStarted(board (null), location ((0.000000, 0.000000, 0.000000, 0.000000 mm)), side (Top), id R1, location (10.000000, 10.000000, 0.000000, 45.000000 mm), side Top, part id R-0805-10K, name , heightUnits Inches, height 0.032500, packageId (0805), type Place)
+12:48:21,772 INFO  BasicJobTest$BasicJobTestProcessorListener Start R1
+12:48:21,773 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Unload nozzle tip from nozzle ReferenceNozzle.)
+12:48:21,773 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.unloadNozzleTip(): Start
+12:48:21,773 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.unloadNozzleTip(): moveToSafeZ
+12:48:21,774 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,774 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.unloadNozzleTip(): moveTo End Location
+12:48:21,775 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 1.0)
+12:48:21,776 DEBUG org.openpnp.machine.reference.driver.test.TestDriver moveTo(ReferenceNozzle, (-10.000000, 0.000000, 0.000000, 0.000000 mm), 1.0)
+12:48:21,777 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.unloadNozzleTip(): moveTo Mid Location
+12:48:21,778 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 1.0)
+12:48:21,778 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.unloadNozzleTip(): moveTo Start Location
+12:48:21,780 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 0.25)
+12:48:21,781 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,781 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.unloadNozzleTip(): Finished
+12:48:21,781 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Load nozzle tip ReferenceNozzleTip into nozzle ReferenceNozzle.)
+12:48:21,782 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.loadNozzleTip(ReferenceNozzleTip): Start
+12:48:21,782 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.loadNozzleTip(ReferenceNozzleTip): moveToSafeZ
+12:48:21,782 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,783 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.loadNozzleTip(ReferenceNozzleTip): moveTo Start Location
+12:48:21,783 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 1.0)
+12:48:21,783 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.loadNozzleTip(ReferenceNozzleTip): moveTo Mid Location
+12:48:21,784 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 0.25)
+12:48:21,784 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.loadNozzleTip(ReferenceNozzleTip): moveTo End Location
+12:48:21,785 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 1.0)
+12:48:21,785 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,786 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.loadNozzleTip(ReferenceNozzleTip): Finished
+12:48:21,786 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => true
+12:48:21,786 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move nozzle ReferenceNozzle to Safe-Z at ((-10.000000, 0.000000, 0.000000, 0.000000 mm)).)
+12:48:21,787 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,787 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Request part feed from feeder ReferenceTubeFeeder.)
+12:48:21,788 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to safe Z at ((-10.000000, 0.000000, 0.000000, 0.000000 mm)).)
+12:48:21,788 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,788 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to pick location, safe Z at ((0.000000, 0.000000, 0.000000, 0.000000 mm)).)
+12:48:21,789 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, NaN, 0.000000 mm), 1.0)
+12:48:21,789 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to pick location Z at ((0.000000, 0.000000, 0.000000, 0.000000 mm)).)
+12:48:21,789 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 1.0)
+12:48:21,790 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Request part pick at ((0.000000, 0.000000, 0.000000, 0.000000 mm)).)
+12:48:21,790 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.pick()
+12:48:21,790 DEBUG org.openpnp.machine.reference.driver.test.TestDriver pick(ReferenceNozzle ReferenceNozzleTip)
+12:48:21,794 DEBUG org.openpnp.spi.base.AbstractJobProcessor firePartPicked(board (null), location ((0.000000, 0.000000, 0.000000, 0.000000 mm)), side (Top), id R1, location (10.000000, 10.000000, 0.000000, 45.000000 mm), side Top, part id R-0805-10K, name , heightUnits Inches, height 0.032500, packageId (0805), type Place)
+12:48:21,794 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to safe Z at ((-10.000000, 0.000000, 0.000000, 0.000000 mm)).)
+12:48:21,794 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,795 DEBUG org.openpnp.spi.base.AbstractJobProcessor firePartProcessingStarted(board (null), location ((0.000000, 0.000000, 0.000000, 0.000000 mm)), side (Top), id R2, location (20.000000, 20.000000, 0.000000, 90.000000 mm), side Top, part id R-0805-10K, name , heightUnits Inches, height 0.032500, packageId (0805), type Place)
+12:48:21,796 INFO  BasicJobTest$BasicJobTestProcessorListener Start R2
+12:48:21,796 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Unload nozzle tip from nozzle ReferenceNozzle.)
+12:48:21,796 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.unloadNozzleTip(): Start
+12:48:21,796 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.unloadNozzleTip(): moveToSafeZ
+12:48:21,797 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,797 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.unloadNozzleTip(): moveTo End Location
+12:48:21,798 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 1.0)
+12:48:21,799 DEBUG org.openpnp.machine.reference.driver.test.TestDriver moveTo(ReferenceNozzle, (-20.000000, 0.000000, 0.000000, 0.000000 mm), 1.0)
+12:48:21,799 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.unloadNozzleTip(): moveTo Mid Location
+12:48:21,800 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 1.0)
+12:48:21,800 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.unloadNozzleTip(): moveTo Start Location
+12:48:21,801 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 0.25)
+12:48:21,801 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,801 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.unloadNozzleTip(): Finished
+12:48:21,801 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Load nozzle tip ReferenceNozzleTip into nozzle ReferenceNozzle.)
+12:48:21,802 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.loadNozzleTip(ReferenceNozzleTip): Start
+12:48:21,802 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.loadNozzleTip(ReferenceNozzleTip): moveToSafeZ
+12:48:21,802 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,803 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.loadNozzleTip(ReferenceNozzleTip): moveTo Start Location
+12:48:21,803 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 1.0)
+12:48:21,804 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.loadNozzleTip(ReferenceNozzleTip): moveTo Mid Location
+12:48:21,804 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 0.25)
+12:48:21,805 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.loadNozzleTip(ReferenceNozzleTip): moveTo End Location
+12:48:21,805 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 1.0)
+12:48:21,806 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,806 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.loadNozzleTip(ReferenceNozzleTip): Finished
+12:48:21,806 DEBUG org.openpnp.machine.reference.ReferenceNozzleTip ReferenceNozzleTip.canHandle(R-0805-10K) => true
+12:48:21,807 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move nozzle ReferenceNozzle to Safe-Z at ((-20.000000, 0.000000, 0.000000, 0.000000 mm)).)
+12:48:21,807 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,807 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Request part feed from feeder ReferenceTubeFeeder.)
+12:48:21,824 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to safe Z at ((-20.000000, 0.000000, 0.000000, 0.000000 mm)).)
+12:48:21,825 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,825 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to pick location, safe Z at ((0.000000, 0.000000, 0.000000, 0.000000 mm)).)
+12:48:21,826 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, NaN, 0.000000 mm), 1.0)
+12:48:21,826 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to pick location Z at ((0.000000, 0.000000, 0.000000, 0.000000 mm)).)
+12:48:21,826 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((0.000000, 0.000000, 0.000000, 0.000000 mm), 1.0)
+12:48:21,826 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Request part pick at ((0.000000, 0.000000, 0.000000, 0.000000 mm)).)
+12:48:21,827 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.pick()
+12:48:21,827 DEBUG org.openpnp.machine.reference.driver.test.TestDriver pick(ReferenceNozzle ReferenceNozzleTip)
+12:48:21,829 DEBUG org.openpnp.spi.base.AbstractJobProcessor firePartPicked(board (null), location ((0.000000, 0.000000, 0.000000, 0.000000 mm)), side (Top), id R2, location (20.000000, 20.000000, 0.000000, 90.000000 mm), side Top, part id R-0805-10K, name , heightUnits Inches, height 0.032500, packageId (0805), type Place)
+12:48:21,830 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to safe Z at ((-20.000000, 0.000000, 0.000000, 0.000000 mm)).)
+12:48:21,830 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,830 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Perform bottom vision)
+12:48:21,831 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to placement location, safe Z at ((10.000000, 10.000000, 0.825500, 45.000000 mm)).)
+12:48:21,831 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((10.000000, 10.000000, NaN, 45.000000 mm), 1.0)
+12:48:21,832 DEBUG org.openpnp.machine.reference.driver.test.TestDriver moveTo(ReferenceNozzle, (0.000000, 10.000000, 0.000000, 45.000000 mm), 1.0)
+12:48:21,832 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to placement location Z at ((10.000000, 10.000000, 0.825500, 45.000000 mm)).)
+12:48:21,832 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((10.000000, 10.000000, 0.825500, 45.000000 mm), 1.0)
+12:48:21,833 DEBUG org.openpnp.machine.reference.driver.test.TestDriver moveTo(ReferenceNozzle, (0.000000, 10.000000, 0.825500, 45.000000 mm), 1.0)
+12:48:21,833 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Request part place. at (X 10.000, Y 10.000, Z 0.826, C 45.000).)
+12:48:21,834 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.place()
+12:48:21,834 DEBUG org.openpnp.machine.reference.driver.test.TestDriver place(ReferenceNozzle ReferenceNozzleTip)
+12:48:21,835 DEBUG org.openpnp.spi.base.AbstractJobProcessor firePartPlaced(board (null), location ((0.000000, 0.000000, 0.000000, 0.000000 mm)), side (Top), id R1, location (10.000000, 10.000000, 0.000000, 45.000000 mm), side Top, part id R-0805-10K, name , heightUnits Inches, height 0.032500, packageId (0805), type Place)
+12:48:21,836 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to safe Z at ((0.000000, 10.000000, 0.825500, 45.000000 mm)).)
+12:48:21,836 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,837 DEBUG org.openpnp.machine.reference.driver.test.TestDriver moveTo(ReferenceNozzle, (0.000000, 10.000000, 0.000000, 45.000000 mm), 1.0)
+12:48:21,837 DEBUG org.openpnp.spi.base.AbstractJobProcessor firePartProcessingComplete(board (null), location ((0.000000, 0.000000, 0.000000, 0.000000 mm)), side (Top), id R1, location (10.000000, 10.000000, 0.000000, 45.000000 mm), side Top, part id R-0805-10K, name , heightUnits Inches, height 0.032500, packageId (0805), type Place)
+12:48:21,838 INFO  BasicJobTest$BasicJobTestProcessorListener Finish R1
+12:48:21,838 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Perform bottom vision)
+12:48:21,838 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to placement location, safe Z at ((20.000000, 20.000000, 0.825500, 90.000000 mm)).)
+12:48:21,839 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((20.000000, 20.000000, NaN, 90.000000 mm), 1.0)
+12:48:21,840 DEBUG org.openpnp.machine.reference.driver.test.TestDriver moveTo(ReferenceNozzle, (0.000000, 20.000000, 0.000000, 90.000000 mm), 1.0)
+12:48:21,840 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to placement location Z at ((20.000000, 20.000000, 0.825500, 90.000000 mm)).)
+12:48:21,840 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveTo((20.000000, 20.000000, 0.825500, 90.000000 mm), 1.0)
+12:48:21,841 DEBUG org.openpnp.machine.reference.driver.test.TestDriver moveTo(ReferenceNozzle, (0.000000, 20.000000, 0.825500, 90.000000 mm), 1.0)
+12:48:21,841 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Request part place. at (X 20.000, Y 20.000, Z 0.826, C 90.000).)
+12:48:21,841 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.place()
+12:48:21,841 DEBUG org.openpnp.machine.reference.driver.test.TestDriver place(ReferenceNozzle ReferenceNozzleTip)
+12:48:21,841 DEBUG org.openpnp.spi.base.AbstractJobProcessor firePartPlaced(board (null), location ((0.000000, 0.000000, 0.000000, 0.000000 mm)), side (Top), id R2, location (20.000000, 20.000000, 0.000000, 90.000000 mm), side Top, part id R-0805-10K, name , heightUnits Inches, height 0.032500, packageId (0805), type Place)
+12:48:21,842 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Move to safe Z at ((0.000000, 20.000000, 0.825500, 90.000000 mm)).)
+12:48:21,842 DEBUG org.openpnp.machine.reference.ReferenceNozzle ReferenceNozzle.moveToSafeZ(1.0)
+12:48:21,842 DEBUG org.openpnp.machine.reference.driver.test.TestDriver moveTo(ReferenceNozzle, (0.000000, 20.000000, 0.000000, 90.000000 mm), 1.0)
+12:48:21,843 DEBUG org.openpnp.spi.base.AbstractJobProcessor firePartProcessingComplete(board (null), location ((0.000000, 0.000000, 0.000000, 0.000000 mm)), side (Top), id R2, location (20.000000, 20.000000, 0.000000, 90.000000 mm), side Top, part id R-0805-10K, name , heightUnits Inches, height 0.032500, packageId (0805), type Place)
+12:48:21,843 INFO  BasicJobTest$BasicJobTestProcessorListener Finish R2
+12:48:21,843 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireDetailedStatusUpdated(Job complete.)
+12:48:21,843 DEBUG org.openpnp.spi.base.AbstractJobProcessor fireJobStateChanged(Stopped)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.828 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+

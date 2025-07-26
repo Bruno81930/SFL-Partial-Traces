@@ -1,0 +1,50 @@
+#!/bin/bash
+
+
+./coverage.sh Cli
+
+if [ $? -ne 0 ]; then
+	exit 1;
+fi
+
+./coverage.sh Codec
+
+if [ $? -ne 0 ]; then
+	exit 1;
+fi
+
+./coverage.sh Compress
+
+if [ $? -ne 0 ]; then
+	exit 1;
+fi
+
+./coverage.sh Csv
+
+if [ $? -ne 0 ]; then
+	exit 1;
+fi
+
+./coverage.sh JacksonCore
+
+if [ $? -ne 0 ]; then
+	exit 1;
+fi
+
+./coverage.sh JacksonXml
+
+if [ $? -ne 0 ]; then
+	exit 1;
+fi
+
+./coverage.sh Jsoup
+
+if [ $? -ne 0 ]; then
+	exit 1;
+fi
+
+./coverage.sh JxPath
+
+if [ $? -ne 0 ]; then
+	exit 1;
+fi

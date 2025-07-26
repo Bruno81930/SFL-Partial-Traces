@@ -1,0 +1,8 @@
+SampleJobTest testSampleJob
+Utils2DTest testCalculateAngleAndOffset
+Utils2DTest testCalculateBoardPlacementLocation
+BasicJobTest testSimpleJob
+OpenCvTest openCvWorks
+VisionUtilsTest testOffsets
+EagleLoaderTest testLoadBoard
+EagleLoaderTest testLoadSchematic
